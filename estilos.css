@@ -11,30 +11,37 @@ body {
 }
 
 header {
-    background-color: #5d4037;
+    background: linear-gradient(135deg, #3e2723, #795548);
     color: white;
     text-align: center;
-    padding: 40px;
+    padding: 60px 20px;
 }
 
 header h1 {
-    font-size: 42px;
+    font-size: 48px;
+    letter-spacing: 2px;
 }
 
 header p {
     margin-top: 10px;
+    font-size: 18px;
 }
 
 nav {
-    background-color: #3e2723;
+    background-color: #2d1b18;
     text-align: center;
-    padding: 15px;
+    padding: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
